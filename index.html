@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Web Page</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <h1>🚀 Interactive Web Page</h1>
+
+  <!-- Part 1: Event Handling -->
+  <section>
+    <h2>Part 1: Event Handling</h2>
+    <button id="clickBtn">Click Me!</button>
+    <p id="message"></p>
+  </section>
+
+  <!-- Part 2: Interactive Elements -->
+  <section>
+    <h2>Part 2: Interactive Elements</h2>
+
+    <!-- Light/Dark Mode -->
+    <button id="toggleTheme">Toggle Dark Mode</button>
+
+    <!-- Counter -->
+    <p>Count: <span id="counter">0</span></p>
+    <button id="increase">Increase</button>
+    <button id="reset">Reset</button>
+  </section>
+
+  <!-- Part 3: Form Validation -->
+  <section>
+    <h2>Part 3: Form Validation</h2>
+    <form id="signupForm">
+      <input type="text" id="name" placeholder="Enter name"><br>
+      <span id="nameError" class="error"></span><br>
+
+      <input type="email" id="email" placeholder="Enter email"><br>
+      <span id="emailError" class="error"></span><br>
+
+      <input type="password" id="password" placeholder="Enter password"><br>
+      <span id="passwordError" class="error"></span><br>
+
+      <button type="submit">Submit</button>
+    </form>
+    <p id="successMsg"></p>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
